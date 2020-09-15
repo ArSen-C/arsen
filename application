@@ -1,0 +1,19 @@
+server:
+  port: 1122
+spring:
+  application:
+    name: micro-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ArSen-C/arsen.git
+          force-pull: true
+          username: 792267335@qq.com
+          password: ArSen3997
+
+  #eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:9005/eureka
