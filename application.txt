@@ -9,8 +9,8 @@ spring:
         git:
           uri: https://github.com/ArSen-C/arsen.git
           force-pull: true
-          username: 792267335@qq.com
-          password: ArSen3997
+          username: 79***335@qq.com
+          password: A*****
 
   #eureka
 eureka:
